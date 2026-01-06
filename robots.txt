@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://codnexus-academy.vercel.app/sitemap.xml
+Sitemap: https://free-web-development-tutorials-27fk.vercel.app/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
