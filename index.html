@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>CodeNexus Academy - Learn HTML, CSS, JavaScript Online | Free Web Development Tutorials</title>
+    <meta name="title" content="CodeNexus Academy - Learn HTML, CSS, JavaScript Online | Free Web Development Tutorials">
+    <meta name="description" content="Master web development fundamentals with CodeNexus Academy. Learn HTML, CSS, and JavaScript through interactive examples, live code editor, and hands-on practice. Free online web development tutorials for beginners.">
+    <meta name="keywords" content="web development, HTML tutorial, CSS tutorial, JavaScript tutorial, learn HTML, learn CSS, learn JavaScript, web development for beginners, HTML examples, CSS examples, JavaScript examples, interactive coding, online code editor, web development course, frontend development, HTML5, CSS3, JavaScript ES6, DOM manipulation, web design, responsive design, coding tutorial, programming tutorial, web development basics, HTML CSS JavaScript, frontend tutorial, web development learning, code examples, live coding, web development education">
+    <meta name="author" content="CodeNexus Academy">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Canonical URL - Update with your actual domain -->
+    <link rel="canonical" href="https://codnexus-academy.vercel.app/">
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    
+    <!-- DNS Prefetch for better performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codnexus-academy.vercel.app/">
+    <meta property="og:title" content="CodeNexus Academy - Learn HTML, CSS, JavaScript Online | Free Web Development Tutorials">
+    <meta property="og:description" content="Master web development fundamentals with CodeNexus Academy. Learn HTML, CSS, and JavaScript through interactive examples, live code editor, and hands-on practice.">
+    <meta property="og:image" content="https://codnexus-academy.vercel.app/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="CodeNexus Academy">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://codnexus-academy.vercel.app/">
+    <meta name="twitter:title" content="CodeNexus Academy - Learn HTML, CSS, JavaScript Online">
+    <meta name="twitter:description" content="Master web development fundamentals with interactive examples, live code editor, and hands-on practice.">
+    <meta name="twitter:image" content="https://codnexus-academy.vercel.app/twitter-image.jpg">
+    <meta name="twitter:creator" content="@codnexusacademy">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="application-name" content="CodeNexus Academy">
+    <meta name="apple-mobile-web-app-title" content="CodeNexus Academy">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="United States">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    <meta name="coverage" content="worldwide">
+    <meta name="target" content="all">
+    <meta name="audience" content="all">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "CodeNexus Academy",
+      "description": "Free online web development tutorials for HTML, CSS, and JavaScript with interactive examples and live code editor",
+      "url": "https://codnexus-academy.vercel.app",
+      "logo": "https://codnexus-academy.vercel.app/logo.png",
+      "sameAs": [
+        "https://twitter.com/codnexusacademy",
+        "https://facebook.com/codnexusacademy"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "educationalCredentialAwarded": "Certificate",
+      "teaches": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Development",
+        "Frontend Development"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Web Development Fundamentals",
+      "description": "Learn HTML, CSS, and JavaScript through interactive examples and hands-on practice",
+      "provider": {
+        "@type": "Organization",
+        "name": "CodeNexus Academy",
+        "sameAs": "https://codnexus-academy.vercel.app"
+      },
+      "courseCode": "WEB101",
+      "educationalLevel": "Beginner",
+      "teaches": [
+        "HTML Basics",
+        "CSS Styling",
+        "JavaScript Programming",
+        "DOM Manipulation",
+        "Web Development"
+      ],
+      "timeRequired": "PT20H",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "inLanguage": "en-US"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "CodeNexus Academy",
+      "url": "https://codnexus-academy.vercel.app",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://codnexus-academy.vercel.app/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://codnexus-academy.vercel.app"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "HTML Tutorial",
+          "item": "https://codnexus-academy.vercel.app#html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CSS Tutorial",
+          "item": "https://codnexus-academy.vercel.app#css"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "JavaScript Tutorial",
+          "item": "https://codnexus-academy.vercel.app#javascript"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-brand" itemscope itemtype="https://schema.org/Organization">
+                <span class="brand-icon" aria-hidden="true">⚡</span>
+                <span class="brand-name" itemprop="name">CodeNexus Academy</span>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#home" class="nav-link active" role="menuitem" aria-label="Go to home section">Home</a></li>
+                <li role="none"><a href="#html" class="nav-link" role="menuitem" aria-label="Go to HTML tutorial section">HTML</a></li>
+                <li role="none"><a href="#css" class="nav-link" role="menuitem" aria-label="Go to CSS tutorial section">CSS</a></li>
+                <li role="none"><a href="#javascript" class="nav-link" role="menuitem" aria-label="Go to JavaScript tutorial section">JavaScript</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" itemscope itemtype="https://schema.org/WebPage">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" itemprop="name">Master Web Development Fundamentals</h1>
+                <p class="hero-subtitle" itemprop="description">Learn HTML, CSS, and JavaScript through interactive examples and hands-on practice</p>
+                <div class="hero-buttons">
+                    <a href="#html" class="btn btn-primary">Start Learning</a>
+                    <a href="#html" class="btn btn-secondary">Explore Examples</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-preview">
+                    <div class="code-window">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="code-content">
+                            <span class="code-line"><span class="tag">&lt;div&gt;</span></span>
+                            <span class="code-line">  <span class="tag">&lt;h1&gt;</span>Hello World<span class="tag">&lt;/h1&gt;</span></span>
+                            <span class="code-line"><span class="tag">&lt;/div&gt;</span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Floating particles -->
+                <div class="floating-particles">
+                    <span class="particle"></span>
+                    <span class="particle"></span>
+                    <span class="particle"></span>
+                    <span class="particle"></span>
+                    <span class="particle"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Section -->
+    <section id="html" class="section" itemscope itemtype="https://schema.org/Article">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" itemprop="headline">HTML Basics</h2>
+                <p class="section-description" itemprop="description">Learn the foundation of web development with HTML (HyperText Markup Language)</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="theory-card" itemscope itemtype="https://schema.org/Article">
+                    <h3 itemprop="headline">What is HTML?</h3>
+                    <p itemprop="description">HTML is the standard markup language for creating web pages. It describes the structure of a web page and consists of a series of elements that tell the browser how to display content.</p>
+                    
+                    <h4>Basic HTML Structure</h4>
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+                    <h4>Common HTML Elements</h4>
+                    <ul class="element-list">
+                        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Headings</li>
+                        <li><code>&lt;p&gt;</code> - Paragraphs</li>
+                        <li><code>&lt;a&gt;</code> - Links</li>
+                        <li><code>&lt;img&gt;</code> - Images</li>
+                        <li><code>&lt;div&gt;</code> - Container</li>
+                        <li><code>&lt;span&gt;</code> - Inline container</li>
+                        <li><code>&lt;button&gt;</code> - Buttons</li>
+                        <li><code>&lt;input&gt;</code> - Form inputs</li>
+                    </ul>
+                </div>
+
+                <div class="example-card">
+                    <h3>Interactive Example</h3>
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <span>HTML Editor</span>
+                            <button class="run-btn" data-example="html1">Run Code</button>
+                        </div>
+                        <textarea class="code-input" id="html1-input" rows="12">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to CodeNexus Academy&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+    &lt;button&gt;Click Me&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+                    </div>
+                    <div class="output-preview">
+                        <div class="preview-header">Output</div>
+                        <iframe class="preview-frame" id="html1-output" sandbox="allow-scripts"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example-item">
+                    <h4>Example 1: Headings</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="html2" rows="8">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;</textarea>
+                        <button class="run-btn" data-example="html2">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="html2" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 2: Links & Images</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="html3" rows="8">&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img src="https://via.placeholder.com/300x200" alt="Example placeholder image for HTML tutorial"&gt;</textarea>
+                        <button class="run-btn" data-example="html3">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="html3" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 3: Lists</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="html4" rows="10">&lt;ul&gt;
+    &lt;li&gt;First Item&lt;/li&gt;
+    &lt;li&gt;Second Item&lt;/li&gt;
+    &lt;li&gt;Third Item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt;Ordered Item 1&lt;/li&gt;
+    &lt;li&gt;Ordered Item 2&lt;/li&gt;
+&lt;/ol&gt;</textarea>
+                        <button class="run-btn" data-example="html4">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="html4" sandbox="allow-scripts"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section id="css" class="section" itemscope itemtype="https://schema.org/Article">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" itemprop="headline">CSS Basics</h2>
+                <p class="section-description" itemprop="description">Style your web pages with CSS (Cascading Style Sheets) to create beautiful designs</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="theory-card" itemscope itemtype="https://schema.org/Article">
+                    <h3 itemprop="headline">What is CSS?</h3>
+                    <p itemprop="description">CSS is used to style and layout web pages. It allows you to control colors, fonts, spacing, positioning, and much more.</p>
+                    
+                    <h4>CSS Syntax</h4>
+                    <pre><code>selector {
+    property: value;
+    property: value;
+}</code></pre>
+
+                    <h4>CSS Selectors</h4>
+                    <ul class="element-list">
+                        <li><code>element</code> - Selects all elements of that type</li>
+                        <li><code>.class</code> - Selects elements with that class</li>
+                        <li><code>#id</code> - Selects element with that ID</li>
+                        <li><code>element.class</code> - Combines element and class</li>
+                    </ul>
+
+                    <h4>Common CSS Properties</h4>
+                    <ul class="element-list">
+                        <li><code>color</code> - Text color</li>
+                        <li><code>background-color</code> - Background color</li>
+                        <li><code>font-size</code> - Text size</li>
+                        <li><code>margin</code> - Outer spacing</li>
+                        <li><code>padding</code> - Inner spacing</li>
+                        <li><code>border</code> - Border styling</li>
+                        <li><code>width</code> / <code>height</code> - Dimensions</li>
+                    </ul>
+                </div>
+
+                <div class="example-card">
+                    <h3>Interactive Example</h3>
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <span>CSS Editor</span>
+                            <button class="run-btn" data-example="css1">Run Code</button>
+                        </div>
+                        <textarea class="code-input" id="css1-input" rows="12">.box {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}</textarea>
+                    </div>
+                    <div class="output-preview">
+                        <div class="preview-header">Output</div>
+                        <iframe class="preview-frame" id="css1-output" sandbox="allow-scripts"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example-item">
+                    <h4>Example 1: Colors & Typography</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="css2" rows="10">h1 {
+    color: #FF6B6B;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+p {
+    color: #4ECDC4;
+    font-size: 1.2em;
+}</textarea>
+                        <button class="run-btn" data-example="css2">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="css2" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 2: Flexbox Layout</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="css3" rows="12">.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background: #f0f0f0;
+}
+.item {
+    width: 80px;
+    height: 80px;
+    background: #FF6B6B;
+    border-radius: 8px;
+}</textarea>
+                        <button class="run-btn" data-example="css3">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="css3" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 3: Animations</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="css4" rows="15">@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+.animated {
+    width: 100px;
+    height: 100px;
+    background: #4ECDC4;
+    border-radius: 50%;
+    animation: bounce 1s infinite;
+    margin: 50px auto;
+}</textarea>
+                        <button class="run-btn" data-example="css4">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="css4" sandbox="allow-scripts"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="javascript" class="section" itemscope itemtype="https://schema.org/Article">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" itemprop="headline">JavaScript Basics</h2>
+                <p class="section-description" itemprop="description">Add interactivity and dynamic behavior to your web pages with JavaScript</p>
+            </div>
+
+            <div class="content-grid">
+                <div class="theory-card" itemscope itemtype="https://schema.org/Article">
+                    <h3 itemprop="headline">What is JavaScript?</h3>
+                    <p itemprop="description">JavaScript is a programming language that enables interactive web pages. It's an essential part of web development alongside HTML and CSS.</p>
+                    
+                    <h4>Basic JavaScript Syntax</h4>
+                    <pre><code>// Variables
+let name = "CodeNexus";
+const age = 2024;
+
+// Functions
+function greet() {
+    console.log("Hello!");
+}
+
+// Event Listeners
+button.addEventListener('click', function() {
+    alert('Clicked!');
+});</code></pre>
+
+                    <h4>JavaScript Concepts</h4>
+                    <ul class="element-list">
+                        <li><strong>Variables</strong> - Store data (let, const, var)</li>
+                        <li><strong>Functions</strong> - Reusable code blocks</li>
+                        <li><strong>Events</strong> - User interactions</li>
+                        <li><strong>DOM</strong> - Manipulate HTML elements</li>
+                        <li><strong>Arrays</strong> - Store multiple values</li>
+                        <li><strong>Objects</strong> - Store key-value pairs</li>
+                        <li><strong>Loops</strong> - Repeat code execution</li>
+                        <li><strong>Conditionals</strong> - Make decisions</li>
+                    </ul>
+                </div>
+
+                <div class="example-card">
+                    <h3>Interactive Example</h3>
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <span>JavaScript Editor</span>
+                            <button class="run-btn" data-example="js1">Run Code</button>
+                        </div>
+                        <textarea class="code-input" id="js1-input" rows="12">function changeColor() {
+    const box = document.getElementById('colorBox');
+    const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    box.style.backgroundColor = randomColor;
+}
+
+// Run on page load
+changeColor();</textarea>
+                    </div>
+                    <div class="output-preview">
+                        <div class="preview-header">Output</div>
+                        <iframe class="preview-frame" id="js1-output" sandbox="allow-scripts"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example-item">
+                    <h4>Example 1: Variables & Functions</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="js2" rows="12">let count = 0;
+
+function increment() {
+    count++;
+    document.getElementById('counter').textContent = count;
+}
+
+function decrement() {
+    count--;
+    document.getElementById('counter').textContent = count;
+}</textarea>
+                        <button class="run-btn" data-example="js2">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="js2" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 2: DOM Manipulation</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="js3" rows="12">function addItem() {
+    const input = document.getElementById('itemInput');
+    const list = document.getElementById('itemList');
+    const li = document.createElement('li');
+    li.textContent = input.value;
+    list.appendChild(li);
+    input.value = '';
+}</textarea>
+                        <button class="run-btn" data-example="js3">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="js3" sandbox="allow-scripts"></iframe>
+                </div>
+
+                <div class="example-item">
+                    <h4>Example 3: Event Handling</h4>
+                    <div class="code-editor">
+                        <textarea class="code-input" data-example="js4" rows="15">document.getElementById('hoverBox').addEventListener('mouseenter', function() {
+    this.style.transform = 'scale(1.2)';
+    this.style.transition = 'transform 0.3s';
+});
+
+document.getElementById('hoverBox').addEventListener('mouseleave', function() {
+    this.style.transform = 'scale(1)';
+});
+
+document.getElementById('clickBtn').addEventListener('click', function() {
+    alert('Button clicked!');
+});</textarea>
+                        <button class="run-btn" data-example="js4">Run</button>
+                    </div>
+                    <iframe class="preview-frame" data-example="js4" sandbox="allow-scripts"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2026 <span itemprop="name">CodeNexus Academy</span>. Learn, Practice, Build.</p>
+            <p><small>Free web development tutorials for HTML, CSS, and JavaScript</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
